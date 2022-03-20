@@ -25,6 +25,7 @@
     font-size: 16px;
 }
 
+/* Body CSS */
 
 #wrapper {
     max-width: 1368px;
@@ -54,6 +55,17 @@
     margin-right: 16.39px;
 }
 
+.social-link {
+    text-decoration: none;
+}
+
+.social-link-white {
+    fill: #ffffff;
+}
+.social-link:hover {
+    fill: #E80789;
+} 
+
 #macbook-text-container {
     position: relative;
     height: 328px;
@@ -78,6 +90,11 @@
     border: 2px solid #e80789;
     color: #e80789;
     font-weight: 700;
+}
+
+.call-to-action:hover {
+    color: #000000;
+    border-color: #000000;
 }
 
 /* Chameleon Section */
@@ -121,8 +138,13 @@
     font-weight: 700;
     height: 21px;
     width: 55px;
-    
 }
+
+#lets-go:hover {
+    margin-right: 10px;
+}
+
+/* Stats Section */
 
 #stats {
     height: 301px;
@@ -289,5 +311,6 @@ footer {
 }
 
 footer > p {
-    width: 1092px;
+    max-width: 1092px;
+    padding: 10px;
 }
