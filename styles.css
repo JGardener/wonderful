@@ -167,11 +167,11 @@ body {
 /* Stats Section */
 
 #stats {
-    height: 301px;
     background: #F9F9F9;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem;
 }
 
 .stat {
@@ -375,14 +375,27 @@ footer > p {
     #chameleon-image {
         background-position-x: 80%;
         margin-right: 1rem;
+        width: 252px; 
     }
 
     #chameleon-text-container > .title {
         margin-left: -2.5rem;
     }
 
+    #stats {
+        flex-direction: column
+    }
+
+    .big-number {
+        font-size: 64px;
+    }
+
     #relax-container {
         width: 90%;
+    }
+
+    #relax > .title {
+        font-size: 45px;
     }
 
 }
