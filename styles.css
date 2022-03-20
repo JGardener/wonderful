@@ -14,6 +14,18 @@
     transition: ease-out .3s;
 }
 
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
 /* Character Styles */
 
 .title {
@@ -32,10 +44,11 @@
 
 body {
     background: #FAFAFAFA;
+    width: 100%;
 }
 
 #wrapper {
-    max-width: 1368px;
+    width: 85.5rem;
     font-family: "Roboto", sans-serif;
     margin: 10vh auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
